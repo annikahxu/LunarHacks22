@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Name</title>
+    <title>Bytes</title>
     <link rel="stylesheet" href="homepage.css">
-
-    // fonts
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
   </head>
 
@@ -20,16 +18,15 @@
 
     <div class="container">
       <form action="action_page.php">
-        <div class="form__input">
-          <input type="text" id="fname" name="firstname" placeholder="Name">
+        <div class="form__input-group">
+          <input type="text" id="fname" class="form__input" name="firstname" placeholder="Name">
           <br>
-          <input type="text" id="Allergies" placeholder="Allergies">
+          <input type="text" id="Allergies" class="form__input" placeholder="Allergies">
         </div>
       </form>
     </div>
 
     <style>
-      /* Image Designing Propoerties */
       .thumb {
           height: 75px;
           border: 1px solid #000;
@@ -38,7 +35,6 @@
   </style>
   
   <script type="text/javascript">
-      /* The uploader form */
       $(function () {
           $(":file").change(function () {
               if (this.files && this.files[0]) {
@@ -58,19 +54,10 @@
   </script>
   
   
-  <input type='file' />
-  </br><img id="myImg" src="#" alt="your image" height=200 width=100>
-    
-
+  <input class="upload" type='file' />
+  <br>
   <button class="form__button" type="submit">Continue</button>
 
   </div>
-
-  
-
-  
-    
   </body>
-
-
 </html>
