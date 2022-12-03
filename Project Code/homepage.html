@@ -19,9 +19,8 @@
     <div class="container">
       <form action="action_page.php">
         <div class="form__input-group">
-          <input type="text" id="fname" class="form__input" name="firstname" placeholder="Name">
-          <br>
-          <input type="text" id="Allergies" class="form__input" placeholder="Allergies">
+          <input type="text" id="myName" class="form__input" placeholder="Name:"><br>
+          <input type="text" id="myAllergy" class="form__input" placeholder="Allergies:">
         </div>
       </form>
     </div>
@@ -53,11 +52,14 @@
   
   </script>
   
-  
-  <input class="upload" type='file' />
+  <input class="upload" type='file'>
   <br>
-  <button class="form__button" type="submit">Continue</button>
-
-  </div>
+   <button type="button" id="myButton" class="form__button">Continue</button>
+    
+  <script src="homepage.js">
+  </script>
+  </div>    
   </body>
+
+
 </html>
