@@ -9,6 +9,7 @@ Ingredientsafe is an ingredient scanner that scans for a user’s allergies or o
 **Backend Code**
 
 main.py: Python script that scans the given ingredient list image and compares user input from the website to the text produced from image-to-text. Returns message notifying user if product is safe to consume or not.
+- note: to run properly, user will need to have cv2 and pytesseract modules (cmd line: pip install opencv-python, pip install pytesseract, install-pkg tesseract-ocr)
 
 ingredients.jpg: Example image for an ingredient list
 
