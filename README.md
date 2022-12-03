@@ -9,13 +9,19 @@ Ingredientsafe is an ingredient scanner that scans for a user’s allergies or o
 **Backend Code**
 
 main.py: Python script that scans the given ingredient list image and compares user input from the website to the text produced from image-to-text. Returns message notifying user if product is safe to consume or not.
+
 ingredients.jpg: Example image for an ingredient list
 
 **Frontend Code**
 
 homepage.html: HTML file for homepage
+
 homepage.css: CSS file for homepage styling
+
 homepage.js: JS file for homepage
+
 results.html: HTML file for results page
+
 results.css: CSS file for results page styling
+
 background.png: Background image for IngredientSafe website
